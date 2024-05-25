@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "lastName": "Powell",
+      "firstName": "Alison",
+      "email": "alison.powell@example.com",
+      "id": 1
+    },
+    {
+      "lastName": "Robertson",
+      "firstName": "Audrey",
+      "email": "audrey.robertson@example.com",
+      "id": 2
+    },
+    {
+      "lastName": "King",
+      "firstName": "Tim",
+      "email": "tim.king@example.com",
+      "id": 3
+    },
+    {
+      "lastName": "Fraser",
+      "firstName": "Gabrielle",
+      "email": "gabrielle.fraser@example.com",
+      "id": 4
+    },
+    {
+      "lastName": "Edmunds",
+      "firstName": "Chloe",
+      "email": "chloe.edmunds@example.com",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "userId": 1,
+      "productName": "Washing powder",
+      "storeName": "Amazon",
+      "lastPurchased": "2024-02-201",
+      "intervalMonths": 3,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "productName": "Dog food",
+      "storeName": "Amazon",
+      "lastPurchased": "2024-04-01",
+      "intervalMonths": 1,
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "productName": "Formula milk",
+      "storeName": "Amazon",
+      "lastPurchased": "2024-04-01",
+      "intervalMonths": 1,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "productName": "Bottled water",
+      "storeName": "Wallmart",
+      "lastPurchased": "2024-04-01",
+      "intervalMonths": 1,
+      "id": 4
+    },
+    {
+      "userId": 4,
+      "productName": "Pampers Pants",
+      "storeName": "Ebay",
+      "lastPurchased": "2024-03-21",
+      "intervalMonths": 1,
+      "id": 5
+    },
+    {
+      "userId": 5,
+      "productName": "Batteries",
+      "storeName": "Wallmart",
+      "lastPurchased": "2024-04-01",
+      "intervalMonths": 12,
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "productName": "Kitchen cleaner",
+      "storeName": "Amazon",
+      "lastPurchased": "2024-05-01",
+      "intervalMonths": 5,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "productName": "Soap",
+      "storeName": "Walmart",
+      "lastPurchased": "2024-05-01",
+      "intervalMonths": 4,
+      "id": 8
+    }
+  ]
+}
