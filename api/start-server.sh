@@ -1,2 +1,2 @@
 #!/bin/bash
-json-server -w to-do-db-source.json
+json-server -w recurring-shopping-db-source.json
