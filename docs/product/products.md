@@ -4,6 +4,12 @@ layout: page
 
 # `products` resource
 
+Base endpoint:
+
+```shell
+{server_url}/products
+```
+
 The product database contains information about the product users want to purchase.
 
 **NOTE:** You must add a user before you can create your first product. Products remain after the time specified by "intervalMonths" and are not automatically deleted.

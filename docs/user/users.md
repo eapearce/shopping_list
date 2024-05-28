@@ -4,6 +4,12 @@ layout: page
 
 # `users` resource
 
+Base endpoint:
+
+```shell
+{server_url}/users
+```
+
 The user database contains information about the users of the service.
 
 **NOTE:** You must add a user before you can create your first product.
