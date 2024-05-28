@@ -1,13 +1,8 @@
 ---
 layout: page
 ---
+
 # `products` resource
-
-Base endpoint:
-
-```shell
-{server_url}/products
-```
 
 The product database contains information about the product users want to purchase.
 
@@ -19,16 +14,16 @@ Sample `products` resource
 
 ```js
 {
-      "userId": 1,
-      "productName": "Soap",
-      "storeName": "Walmart",
-      "lastPurchased": "2024-05-01",
-      "intervalMonths": 4,
-      "id": 8
-    }
+"userId": 1,
+"productName": "Soap",
+"storeName": "Walmart",
+"lastPurchased": "2024-05-01",
+"intervalMonths": 4,
+"id": 8
+}
 ```
 
-    | Property name | Type | Description |
+| Property name | Type | Description |
 | ------------- | ----------- | ----------- |
 | `userID` | Number | The ID of the user resource to which this product is assigned |
 | `productName` | String | The products name or short description |

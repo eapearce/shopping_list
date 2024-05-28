@@ -8,7 +8,7 @@ The Recurring Shopping API enables users to create and manage lists of products 
 
 Administrators can manage users or allow users to subscribe or unsubscribe with a minimum of oversight.
 
-Need help? This service has extensive [user documentation].
+Need help? This service has extensive [user documentation](https://eapearce.github.io/shopping_list/).
 
 **NOTE:** This is a mock API to simulate the REST interface of an imaginary service.
 
@@ -44,5 +44,5 @@ First, complete this tutorial to set up your development system. You only have t
 See the following topics for help:
 
 * Review environment setup
-* [Error handling]
-* [User documentation]
+* Error handling
+* [User documentation](https://eapearce.github.io/shopping_list/)
