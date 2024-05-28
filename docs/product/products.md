@@ -11,7 +11,7 @@ Base endpoint:
 
 The product database contains information about the product users want to purchase.
 
-**NOTE:** You must add a user before you can create your first product.
+**NOTE:** You must add a user before you can create your first product. Products remain after the time specified by "intervalMonths" and are not automatically deleted.
 
 ## Resource properties
 
@@ -26,7 +26,8 @@ Sample `products` resource
       "intervalMonths": 4,
       "id": 8
     }
-    ```
+```
+
     | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
 | `userID` | Number | The ID of the user resource to which this product is assigned |
@@ -35,6 +36,7 @@ Sample `products` resource
 | `lastPurchased` | String | The date the product was purchased in YYYY-MM-DD format|
 | `IntervalMonths` | Number | The number of months between purchases of this product.|
 | `id` | Number | The product's unique record ID.|
+
 ## Operations
 
 The `products` resource supports these operations.
