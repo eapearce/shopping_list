@@ -30,7 +30,7 @@ After you have started the service, complete the following steps to search for a
 
 **Result:** The service returns the all entries that match your criteria. If no product matches the search criteria, the service will return an empty array (`[]`)
 
-**Example**
+#### Example `product` object
 
 ```json
 [
@@ -48,16 +48,16 @@ After you have started the service, complete the following steps to search for a
 ## Command line
 
 1. Ensure you have started the service in for your local copy of the Recurring Shopping API.
-2. Enter the following command: `curl <baseURL>/products?=<searchparameter>="<desiredvalue>"`, replacing the variables to match your system and desired search criteria and press **Enter**.
-    * `<baseURL>`matches the URL for the Recurring Shopping API service. In most systems, the URL is `http://localhost:3000`
-    * `<searchparameter>` is `UserId`, `productName`, `storeName`, `lastPurchased`, `intervalMonths`, or `id`
-    * `"<desiredvalue>"` is your search criteria
+2. Enter the following command: `curl {baseURL}/products?={searchparameter}="{desiredvalue}"`, replacing the variables to match your system and desired search criteria and press **Enter**.
+    * `{baseURL}`matches the URL for the Recurring Shopping API service. In most systems, the URL is `http://localhost:3000`
+    * `{searchparameter}` is `UserId`, `productName`, `storeName`, `lastPurchased`, `intervalMonths`, or `id`
+    * `"{desiredvalue}"` is your search criteria
 
-    **Example** `curl "http://localhost:3000/products?productName=Dog%20food"`
+     **Example** `curl "http://localhost:3000/products?productName=Dog%20food"`
 
 **Result:** The service returns the all entries that match your criteria. If no product matches the search criteria, the service will return an empty array (`[]`)
 
-**Example**
+#### Example
 
 ```json
 [
