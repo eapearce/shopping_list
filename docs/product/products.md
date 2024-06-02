@@ -13,21 +13,11 @@ The product database contains information about the product users want to purcha
 
 **NOTE:** You must add a user before you can create your first product.
 
-## Resource properties
+## Parameters
 
-Sample `products` resource
+All parameters are required and are case sensitive.
 
-```js
-{
-      "userId": 1,
-      "productName": "Soap",
-      "storeName": "Walmart",
-      "lastPurchased": "2024-05-01",
-      "intervalMonths": 4,
-      "id": 8
-    }
-    ```
-    | Property name | Type | Description |
+| Property name | Type | Description |
 | ------------- | ----------- | ----------- |
 | `userID` | Number | The ID of the user resource to which this product is assigned |
 | `productName` | String | The products name or short description |
@@ -35,23 +25,24 @@ Sample `products` resource
 | `lastPurchased` | String | The date the product was purchased in YYYY-MM-DD format|
 | `IntervalMonths` | Number | The number of months between purchases of this product.|
 | `id` | Number | The product's unique record ID.|
+
 ## Operations
 
 The `products` resource supports these operations.
 
 ### READ (GET)
 
-* [Get all product]
-* [Get product by property]
+* [Get all product](products_get_all.md)
+* [Get product by property](./products_get_parameter.md)
 
 ### CREATE (POST)
 
-* [Create product]
+* [Create product](products_post.md)
 
 ### UPDATE (PUT/PATCH)
 
-* [Change product property]
+* [Change product parameter](products_patch.md)
 
 ### DELETE
 
-* [Delete product]
+* [Delete product](products_delete.md)

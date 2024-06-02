@@ -20,9 +20,7 @@ Get started with the following tutorials:
 
 ## Authentication
 
-The Recurring Shopping API uses Basic Auth.
-
-Each request must include the username and password encoded in Base64 in the HTTP Authorization header.
+Since this is a mock API, no authentication is necessary.
 
 ## API Reference
 
@@ -35,17 +33,17 @@ on the installation of the service.
 When running a local test, the `{base_url}` is generally `http://localhost:3000`.
 
 * [Users resource](./user/users.md)
-* POST user
-* GET user
-* GET users by property
-* UPDATE user
-* DELETE user
+* [POST user](./user/users_post.md)
+* [GET all users](./user/users-get-all.md)
+* [GET users by property](./user/users_get_parameter.md)
+* [PATCH user](./user/users_patch.md)
+* [DELETE user](./user/users_delete.md)
 * [Products resource](./product/products.md)
-* POST product
-* GET product
-* GET product by property
-* UPDATE product
-* DELETE product
+* [POST product](./product/products_post.md)
+* [GET all products](./product/products_get_all.md)
+* [GET product by property](./product/products_get_parameter.md)
+* [PATCH product](./product/products_patch.md)
+* [DELETE product](./product/products_delete.md)
 
 ## Tutorials
 
@@ -61,8 +59,8 @@ First, complete this tutorial to set up your development system. You only have t
 
 These tutorials explain how to accomplish common tasks in the Recurring Shopping API.
 
-*[Searching for users](./tutorial/searching_users.md)
-*[Searching for products](./tutorial/searching_products.md)
+* [Searching for users](./tutorial/searching_users.md)
+* [Searching for products](./tutorial/searching_products.md)
 
 ## Troubleshooting and support
 

@@ -32,7 +32,7 @@ After you have started the service, complete the following steps to search for a
 
 **Result:** The service returns the all entries that match your criteria. If no user matches the search criteria, the service will return an empty array (`[]`)
 
-**Example**
+#### Example `users` object
 
 ```json
 [
@@ -48,16 +48,16 @@ After you have started the service, complete the following steps to search for a
 ## Command line
 
 1. Ensure you have started the service in for your local copy of the Recurring Shopping API.
-2. Enter the following command: `curl <baseURL>/users?=<searchparameter>="<desiredvalue>"`, replacing the variables to match your system and desired search criteria and press **Enter**.
+2. Enter the following command: `curl <baseURL>/users?{searchparameter}="{desiredvalue}"`, replacing the variables to match your system and desired search criteria and press **Enter**.
     * `<baseURL>`matches the URL for the Recurring Shopping API service. In most systems, the URL is `http://localhost:3000`
-    * `<searchparameter>` is `firstName`, `lastName`,`email`, or `id`
-    * `"<desiredvalue>"` is your search criteria
+    * `{searchparameter}` is `firstName`, `lastName`,`email`, or `id`
+    * `"{desiredvalue}"` is your search criteria
 
-    **Example** `curl http://localhost:3000/users?lastName="powell"`
+    **Example** `curl http://localhost:3000/users?lastName="Powell"`
 
 **Result:** The service returns the all entries that match your criteria. If no user matches the search criteria, the service will return an empty array (`[]`)
 
-**Example**
+#### Example `users` object
 
 ```json
 [
