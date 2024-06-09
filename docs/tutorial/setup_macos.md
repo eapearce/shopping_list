@@ -84,7 +84,6 @@ Follow these steps to confirm your system is ready:
 3. If the service is running correctly, you should see a list of users from the service, such as in this example.
 
     ```js
-    [
     {
     "last_name": "Smith",
     "first_name": "Ferdinand",
