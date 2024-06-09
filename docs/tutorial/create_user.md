@@ -49,3 +49,4 @@ After you have started the service, complete the following steps to create a use
         "first_name": "Jenny",
         "email": "jen.jones@example.com"
     }
+    ```
