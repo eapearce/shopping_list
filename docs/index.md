@@ -12,7 +12,7 @@ Administrators can manage users or allow users to subscribe or unsubscribe with 
 
 ## Quickstart
 
-Get started with the following tutorials:
+Complete these tutorials to set up your system, create your first user, and create your first product.
 
 * System setup [PC](./tutorial/setup_pc.md) or [MacOS](./tutorial/setup_macos.md)
 * [Creating a user](./tutorial/create_user.md)
@@ -24,7 +24,7 @@ This mock service does not use any authorization. The endpoints are available to
 
 ## API Reference
 
-Detailed descriptions of the service's resources. 
+Detailed descriptions of the service's resources.
 
 The API reference docs refer to a `{base_url}` when they
 refer to the URL of a resource. The `{base_url}` value depends
