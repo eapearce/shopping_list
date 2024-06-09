@@ -20,7 +20,7 @@ The user database contains information about the users of the service.
       "firstName": "Alison",
       "email": "alison.powell@example.com",
       "id": 1
-    },
+},
 ```
 
 ## Parameters

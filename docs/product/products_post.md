@@ -42,12 +42,12 @@ In the request body, specify a JSON representation of the [`products`](./product
 
 ```json
 {
-"userId": 1,
-"productName": "Washing powder",
-"storeName": "Amazon",
-"lastPurchased": "2024-02-201",
-"intervalMonths": 3,
-"id": "1"
+    "userId": 1,
+    "productName": "Washing powder",
+    "storeName": "Amazon",
+    "lastPurchased": "2024-02-201",
+    "intervalMonths": 3,
+    "id": "1"
 },
 ```
 

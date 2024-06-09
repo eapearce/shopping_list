@@ -32,7 +32,7 @@ After you have started the service, complete the following steps to search for a
 
 **Result:** The service returns the all entries that match your criteria. If no user matches the search criteria, the service will return an empty array (`[]`)
 
-#### Example `users` object
+**Example `users` object**
 
 ```json
 [
@@ -57,15 +57,15 @@ After you have started the service, complete the following steps to search for a
 
 **Result:** The service returns the all entries that match your criteria. If no user matches the search criteria, the service will return an empty array (`[]`)
 
-#### Example `users` object
+**Example `users` object**
 
 ```json
-[
-    {
-        "lastName": "Powell",
-        "firstName": "Alison",
-        "email": "alison.powell@example.com",
-        "id": "1"
-    }
-]
-```
+    [
+        {
+            "lastName": "Powell",
+            "firstName": "Alison",
+            "email": "alison.powell@example.com",
+            "id": "1"
+        }
+    ]
+ ```

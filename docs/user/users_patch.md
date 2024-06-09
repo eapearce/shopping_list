@@ -40,7 +40,7 @@ In the request body, specify the parameter you wish to change and the new value.
 
 ```json
 {
-"lastName": "Powel",
+    "lastName": "Powel",
 },
 ```
 
@@ -61,5 +61,5 @@ Returns the updated parameter and the `id`.
 
 | Status value | Return status | Description |
 | ------------- | ----------- | -----------|
-| 200| OK| Successful update.|
+| 200| OK| Successful request.|
 | 404| Not found | Improperly formatted request.|

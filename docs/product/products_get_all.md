@@ -10,6 +10,7 @@ Returns an array of all [products](products.md) objects in the Reoccurring Shopp
 ```shell
 {server_url}/products
 ```
+
 ## Method
 
 GET
@@ -52,5 +53,5 @@ None
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
-| 200 | Success | Requested data returned successfully |
+| 200 | OK | Successful request |
 | 404| Not found | Improperly formatted request |
