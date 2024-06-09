@@ -42,7 +42,7 @@ In the request body, specify the parameter you wish to change and the new value.
 
 ```json
 {
-"storeName": "Walgreens",
+    "storeName": "Walgreens",
 },
 ```
 
@@ -63,5 +63,5 @@ Returns the updated parameter and the `id`.
 
 | Status value | Return status | Description |
 | ------------- | ----------- | -----------|
-| 201| Created | Stressful product creation.|
+| 200| OK | Stressful request.|
 | 404| Not found | Improperly formatted request.|

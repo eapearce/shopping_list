@@ -47,16 +47,16 @@ None
 
 Returns the matching user object. If no users match your search string, the system returns an empty array`[]`.
 
-#### Example
+**Example**
 
 ```json
 {
- "userId": 1,
-"productName": "Soap",
-"storeName": "Walmart",
-"lastPurchased": "2024-05-01",
-"intervalMonths": 4,
-"id": 8
+    "userId": 1,
+    "productName": "Soap",
+    "storeName": "Walmart",
+    "lastPurchased": "2024-05-01",
+    "intervalMonths": 4,
+    "id": 8
 }
 ```
 
@@ -64,9 +64,9 @@ Returns the matching user object. If no users match your search string, the syst
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
-| 200 | Success | Requested data returned successfully |
+| 200 | OK | Requested data returned successfully |
 | 404| Not found | Improperly formatted request |
 
 ## Tutorial
 
-For help, see the following tutorial: [Search for a user by parameter](../tutorial/search_user_parameter.md)
+For help, see the following tutorial: [Search for a user by parameter](../tutorial/search_user_parameter.md).

@@ -35,12 +35,12 @@ Returns the deleted product.
 
 ```json
 {
-"userId": 3,
-"productName": "Formula milk",
-"storeName": "Amazon",
-"lastPurchased": "2024-04-01",
-"intervalMonths": 1,
-"id": "3"
+    "userId": 3,
+    "productName": "Formula milk",
+    "storeName": "Amazon",
+    "lastPurchased": "2024-04-01",
+    "intervalMonths": 1,
+    "id": "3"
 },
 ```
 
@@ -48,5 +48,5 @@ Returns the deleted product.
 
 | Status value | Return status | Description |
 | ------------- | ----------- | -----------|
-| 200| OK | Successful call.|
+| 200| OK | Successful request.|
 | 404| Not found | Improperly formatted request.|

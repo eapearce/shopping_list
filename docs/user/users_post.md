@@ -40,10 +40,10 @@ In the request body, specify a JSON representation of the [`users`](./users.md) 
 
 ```json
  {
-"lastName": "Fake",
-"firstName": "Iam",
-"email": "IamFake@example.com",
-"id": "102"
+    "lastName": "Fake",
+    "firstName": "Iam",
+    "email": "IamFake@example.com",
+    "id": "102"
 },
 ```
 

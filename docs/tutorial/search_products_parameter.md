@@ -30,7 +30,7 @@ After you have started the service, complete the following steps to search for a
 
 **Result:** The service returns the all entries that match your criteria. If no product matches the search criteria, the service will return an empty array (`[]`)
 
-#### Example `product` object
+**Example `product` object**
 
 ```json
 [
@@ -57,7 +57,7 @@ After you have started the service, complete the following steps to search for a
 
 **Result:** The service returns the all entries that match your criteria. If no product matches the search criteria, the service will return an empty array (`[]`)
 
-#### Example
+**Example**
 
 ```json
 [
