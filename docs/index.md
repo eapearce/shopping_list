@@ -28,23 +28,8 @@ on the installation of the service.
 
 When running a local test, the `{base_url}` is generally `http://localhost:3000`.
 
-### `users` Reference
-
 * [Users resource](./user/users.md)
-* [POST user](./user/users_post.md)
-* [GET all users](./user/users-get-all.md)
-* [GET user by property](./user/users_get_parameter.md)
-* [PATCH user](./user/users_patch.md)
-* [DELETE user](./user/users_delete.md)
-
-### `products` Reference
-
 * [Products resource](./product/products.md)
-* [POST product](./product/products_post.md)
-* [GET all products](./product/products_get_all.md)
-* [GET product by property](./product/products_get_parameter.md)
-* [PATCH product](./product/products_patch.md)
-* [DELETE product](./product/products_delete.md)
 
 ## Tutorials
 
