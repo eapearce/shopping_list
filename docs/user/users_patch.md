@@ -61,5 +61,9 @@ Returns the updated parameter and the `id`.
 
 | Status value | Return status | Description |
 | ------------- | ----------- | -----------|
-| 200| OK| Successful request.|
-| 404| Not found | Improperly formatted request.|
+| 200| OK| Successful request|
+| 404| Not found | Improperly formatted request|
+
+## Tutorial
+
+For help, see the following tutorial: [Updating a user](../tutorial/update_user.md).

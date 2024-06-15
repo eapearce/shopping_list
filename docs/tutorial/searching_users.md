@@ -4,7 +4,15 @@ layout: page
 
 # Tutorial: Searching for users
 
-You can search for users by first name, last name, email, or user ID. The service returns only results that match the search parameters exactly.  **Note:** User names and emails are case sensitive.
+You can search for users by any of the following parameters:
+
+* `firstName`
+* `lastName`
+* `email`
+* `id`
+
+The service returns only results that match the search parameters exactly.  
+**Note:** User names and emails are case sensitive.
 
 ## Request format
 

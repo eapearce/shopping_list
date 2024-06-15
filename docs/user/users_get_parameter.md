@@ -41,9 +41,9 @@ None
 
 ## Return body
 
-Returns the matching user object. If no users match your search string, the system returns an empty array`[]`.
+Returns all matching user objects. If no users match your search string, the system returns an empty array`[]`.
 
-#### Example
+**Example response**
 
 ```json
 {
