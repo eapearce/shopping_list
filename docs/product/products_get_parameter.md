@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-# Get a list of all products
+# Get a product by parameter
 
 Returns an array filtered by the designated parameter of all [products](products.md) objects in the Reoccurring Shopping service. You can filter the product list by the following parameters:
 
@@ -45,7 +45,7 @@ None
 
 ## Return body
 
-Returns the matching user object. If no users match your search string, the system returns an empty array`[]`.
+Returns all matching user objects. If no products match your search string, the system returns an empty array`[]`.
 
 **Example**
 
@@ -64,7 +64,7 @@ Returns the matching user object. If no users match your search string, the syst
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
-| 200 | OK | Requested data returned successfully |
+| 200 | OK | Successful request |
 | 404| Not found | Improperly formatted request |
 
 ## Tutorial

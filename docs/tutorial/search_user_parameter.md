@@ -4,7 +4,10 @@ layout: page
 
 # Tutorial: Search for a user by parameter
 
-You can search for users by any of the following parameters:
+Complete this tutorial to learn how to search for a user by the desired parameter.
+Expect this tutorial to take about 10 minutes to complete.
+
+You can search users by any of the following parameters:
 
 * `firstName`
 * `lastName`
@@ -12,9 +15,6 @@ You can search for users by any of the following parameters:
 * `id`
 
 The service returns only results that match the search parameters exactly.  **Note:** User names and emails are case sensitive.
-
-Complete this tutorial to learn how to search for a user by the desired parameter.
-Expect this tutorial to take about 10 minutes to complete.
 
 ## Before you begin
 
@@ -27,6 +27,7 @@ After you have started the service, complete the following steps to search for a
 1. In Postman, click the **New** button in Postman and select **HTTP** to create a new request.
 2. Ensure **GET** is selected from the dropdown menu next to the request URL.
 3. In the URL field, enter the base URL for the Recurring Shopping API, followed by `/users?`, and add the search parameter followed by an equals sign (`=`) and the desired value.
+
     **Example** `"http://localhost:3000/users?lastName=Powell`
 4. Click **Send**.
 

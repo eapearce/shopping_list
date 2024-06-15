@@ -21,7 +21,7 @@ This request does not use any authorization. The endpoint is available to all pr
 
 | Header name | Description | Required | Values |
 | -------------- | ------ | ------------ |------------ |
-| Content-Type | The format of the data. | Optional | application/json. Default value.  |
+| Content-Type | The format of the data | Optional | application/json. Default value.  |
 
 ## Request body
 
@@ -46,5 +46,9 @@ Returns the deleted user.
 
 | Status value | Return status | Description |
 | ------------- | ----------- | -----------|
-| 200| OK | Successful call. |
-| 404| Not found | Improperly formatted request.|
+| 200| OK | Successful call|
+| 404| Not found | Improperly formatted request|
+
+## Tutorial
+
+For help, see the following tutorial: [Delete a user](../tutorial/delete_user.md).
