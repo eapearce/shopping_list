@@ -3,28 +3,28 @@ layout: page
 ---
 # `products` resource
 
-Base endpoint:
+Base endpoint
 
 ```shell
 {server_url}/products
 ```
 
-The product database contains information about the product users want to purchase.
+Create, update, and manage products by user.
 
 **NOTE:** You must add a user before you can create your first product.
 
 ## Parameters
 
-All parameters are required and are case sensitive.
+All parameters are case sensitive.
 
-| Property name | Type | Description |
-| ------------- | ----------- | ----------- |
-| `userID` | Number | The ID of the user resource to which this product is assigned |
-| `productName` | String | The products name or short description |
-| `storeName` | String | The name of the retailer|
-| `lastPurchased` | String | The date the product was purchased in YYYY-MM-DD format|
-| `IntervalMonths` | Number | The number of months between purchases of this product.|
-| `id` | Number | The product's unique record ID.|
+| Property name | Type | Required | Description |
+| ------------- | ----------- | ----------- | ----------- |
+| `userID` | Number | Required | The ID of the user resource to which this product is assigned |
+| `productName` | String | Required | The products name or short description |
+| `storeName` | String | Required | The name of the retailer|
+| `lastPurchased` | String | Required | The date the product was purchased in YYYY-MM-DD format|
+| `IntervalMonths` | Number | Required | The number of months between purchases of this product|
+| `id` | Number | Required | The product's unique record ID|
 
 ## Operations
 

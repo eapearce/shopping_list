@@ -21,7 +21,7 @@ This request does not use any authorization. The endpoint is available to all pr
 
 | Header name | Description | Required | Values |
 | -------------- | ------ | ------------ |------------ |
-| Content-Type | The format of the data. | Optional | application/json. Default value.  |
+| Content-Type | The format of the data | Optional | application/json. Default value.  |
 
 ## Request body
 
@@ -33,8 +33,8 @@ In the request body, specify a JSON representation of the [`products`](./product
 | `productName` | String | Required| The products name or short description |
 | `storeName` | String | Required| The name of the retailer|
 | `lastPurchased` | String | Required| The date the product was purchased in YYYY-MM-DD format|
-| `IntervalMonths` | Number | Required | The number of months between purchases of this product.|
-| `id` | Number | Required | The product's unique record ID.|
+| `IntervalMonths` | Number | Required | The number of months between purchases of this product|
+| `id` | Number | Required | The product's unique record ID|
 
 **NOTE:** All parameters are case sensitive.
 
@@ -59,5 +59,9 @@ Returns the product object you created.
 
 | Status value | Return status | Description |
 | ------------- | ----------- | -----------|
-| 201 | Created | Stressful product creation.|
+| 201 | Created | Successful product creation|
 | 404 | Not found | Improperly formatted request|
+
+## Tutorial
+
+For help, see the following tutorial: [Creating a product](../product/products_post.md)

@@ -55,3 +55,7 @@ None
 | ------------- | ----------- | ----------- |
 | 200 | OK | Successful request |
 | 404| Not found | Improperly formatted request |
+
+## Tutorial
+
+For help, see the following tutorial: [Searching for products](../tutorial/searching_products.md)

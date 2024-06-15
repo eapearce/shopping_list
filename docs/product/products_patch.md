@@ -3,7 +3,7 @@ layout: page
 ---
 # Update a product
 
-Changes the value of the specified parameter. You must specify the `id` of the product in the endpoint.
+Changes the value of a product parameter. You must specify the `id` of the product in the endpoint.
 
 ## URL
 
@@ -21,7 +21,7 @@ This request does not use any authorization. The endpoint is available to all pr
 
 | Header name | Description | Required | Values |
 | -------------- | ------ | ------------ |------------ |
-| Content-Type | The format of the data. | Optional | application/json. Default value.  |
+| Content-Type | The format of the data | Optional | application/json. Default value.  |
 
 ## Request body
 
@@ -33,8 +33,8 @@ In the request body, specify the parameter you wish to change and the new value.
 | `productName` | String | The products name or short description |
 | `storeName` | String | The name of the retailer|
 | `lastPurchased` | String | The date the product was purchased in YYYY-MM-DD format|
-| `IntervalMonths` | Number | The number of months between purchases of this product.|
-| `id` | Number | The product's unique record ID.|
+| `IntervalMonths` | Number | The number of months between purchases of this product|
+| `id` | Number | The product's unique record ID|
 
 **NOTE:** All parameters are case sensitive.
 
@@ -63,5 +63,9 @@ Returns the updated parameter and the `id`.
 
 | Status value | Return status | Description |
 | ------------- | ----------- | -----------|
-| 200| OK | Stressful request.|
-| 404| Not found | Improperly formatted request.|
+| 200| OK | Successful request|
+| 404| Not found | Improperly formatted request|
+
+## Tutorial
+
+For help, see the following tutorial: [Updating a product](../product/products_patch.md)

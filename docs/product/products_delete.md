@@ -3,7 +3,7 @@ layout: page
 ---
 # Delete a product
 
-Delete a user. You must specify the `id` of the product in the endpoint.
+Delete a product. You must specify the `id` of the product in the endpoint.
 
 ## URL
 
@@ -21,7 +21,7 @@ This request does not use any authorization. The endpoint is available to all pr
 
 | Header name | Description | Required | Values |
 | -------------- | ------ | ------------ |------------ |
-| Content-Type | The format of the data. | Optional | application/json. Default value.  |
+| Content-Type | The format of the data | Optional | application/json. Default value.  |
 
 ## Request body
 
@@ -48,5 +48,9 @@ Returns the deleted product.
 
 | Status value | Return status | Description |
 | ------------- | ----------- | -----------|
-| 200| OK | Successful request.|
-| 404| Not found | Improperly formatted request.|
+| 200| OK | Successful request|
+| 404| Not found | Improperly formatted request|
+
+## Tutorial
+
+For help, see the following tutorial: [Delete a product](../tutorial/delete_product.md)

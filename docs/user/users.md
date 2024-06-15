@@ -1,12 +1,12 @@
 # `users` resource
 
-Base endpoint:
+Base endpoint
 
 ```shell
 {server_url}/users
 ```
 
-The user database contains information about the users of the service.
+Use this endpoint to create, manage, and delete your users.
 
 **NOTE:** You must add a user before you can create your first product.
 
@@ -25,14 +25,14 @@ The user database contains information about the users of the service.
 
 ## Parameters
 
-All parameters are required and are case sensitive.
+All parameters are case sensitive.
 
-| Property name | Type | Description |
-| ------------- | ----------- | ----------- |
-| `lastName` | Number | The user's last name. |
-| `firstName` | String | The user's first name. |
-| `email` | String | The user's email address.|
-| `id` | Number | The user's unique record ID.|
+| Property name | Type | Required | Description |
+| ------------- | ----------- | ----------- | ----------- |
+| `lastName` | Number | Required | The user's last name|
+| `firstName` | String | Required | The user's first name|
+| `email` | String | Required | The user's email address|
+| `id` | Number | Required | The user's unique record ID|
 
 ## Operations
 

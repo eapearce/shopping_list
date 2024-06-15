@@ -44,7 +44,7 @@ After you have started the service, complete the following steps to create a pro
 
     **Result:** The system responds with a `201` message and the entry created, which contains the `id` parameter.
 
-    **Example POST request**
+    **Example successful response**
 
     ```json
     {
