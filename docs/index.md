@@ -28,8 +28,8 @@ on the installation of the service.
 
 When running a local test, the `{base_url}` is generally `http://localhost:3000`.
 
-* [Users resource](./user/users.md)
-* [Products resource](./product/products.md)
+* [Users endpoint](./user/users.md)
+* [Products endpoint](./product/products.md)
 
 ## Tutorials
 
@@ -63,8 +63,8 @@ These tutorials explain how to accomplish common tasks in the Recurring Shopping
 
 Error messages are defined in each endpoint:
 
-* [Users resource](./user/users.md)
-* [Products resource](./product/products.md)
+* [Users endpoint](./user/users.md)
+* [Products endpoint](./product/products.md)
 
 See the following information for help:
 
