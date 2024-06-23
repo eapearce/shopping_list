@@ -21,7 +21,7 @@ This request does not use any authorization. The endpoint is available to all pr
 
 | Header name | Description | Required | Values |
 | -------------- | ------ | ------------ |------------ |
-| Content-Type | The format of the data. | Optional | application/json. Default value.  |
+| Content-Type | The format of the data | Optional | application/json. Default value.|
 
 ## Request body
 

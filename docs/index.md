@@ -70,3 +70,4 @@ See the following information for help:
 
 * Review environment setup for [PC](./tutorial/setup_pc.md) or [MacOS](./tutorial/setup_macos.md)
 * [User documentation](https://eapearce.github.io/shopping_list/)
+* [Changelog](changelog.md)
