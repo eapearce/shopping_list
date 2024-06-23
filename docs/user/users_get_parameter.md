@@ -26,10 +26,10 @@ All parameter values are case sensitive.
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `lastName` | Number | The user's last name. |
-| `firstName` | String | The user's first name. |
-| `email` | String | The user's email address.|
-| `id` | Number | The user's unique record ID.|
+| `lastName` | Number | The user's last name|
+| `firstName` | String | The user's first name|
+| `email` | String | The user's email address|
+| `id` | Number | The user's unique record ID|
 
 ## Request headers
 

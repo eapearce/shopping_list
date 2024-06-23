@@ -32,8 +32,8 @@ All parameter values are case sensitive.
 | `productName` | String | The products name or short description |
 | `storeName` | String | The name of the retailer|
 | `lastPurchased` | String | The date the product was purchased in YYYY-MM-DD format|
-| `IntervalMonths` | Number | The number of months between purchases of this product.|
-| `id` | Number | The product's unique record ID.|
+| `IntervalMonths` | Number | The number of months between purchases of this product|
+| `id` | Number | The product's unique record ID|
 
 ## Request headers
 
